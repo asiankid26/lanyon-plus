@@ -101,7 +101,7 @@ links:
 twitter_widget_id: adriankhwong
 
 # Add disqus username for Disqus comment board:
-disqus_shortname: adriankhwong
+disqus_shortname: foo
 
 # Analytics and webmaster tools stuff goes here
 #google_analytics:   xyz123abc
