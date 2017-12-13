@@ -1,3 +1,37 @@
+
+Skip to content
+This repository
+
+    Pull requests
+    Issues
+    Marketplace
+    Explore
+
+    @adriankhwong
+
+0
+0
+
+    1,671
+
+adriankhwong/currentSite forked from dyndna/lanyon-plus
+Code
+Pull requests 0
+Projects 0
+Insights
+Settings
+currentSite/_config.yml
+a378a82 13 hours ago
+@adriankhwong adriankhwong Update _config.yml
+@adriankhwong
+@mdo
+@dyndna
+@sbamin
+@Jakehp
+@yutannihilation
+@nickmccurdy
+@Droogans
+108 lines (93 sloc) 3.04 KB
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
@@ -7,16 +41,12 @@ relative_permalinks: false
 encoding: utf-8
 
 # Setup
-title:               My Website
-#tagline:             'foo's website
-description:         Foo's blog...
-url: https://lanyon-plus.sbamin.com
-baseurl: ""
-urlimg: https://lanyon-plus.sbamin.com/images/
-## If you do not have custom domain, comment top three lines, uncomment three lines below and replace dyndna with your github userid and lanyon-plus with your project name. Also, rename CNAME file to CNAME.sample
-#url: https://dyndna.github.io/lanyon-plus
-#baseurl: "/lanyon-plus"
-#urlimg: https://dyndna.github.io/lanyon-plus/images/
+title: Adrian Wong
+#tagline:
+description: Adrian's blog
+url: https://adriankhwong.com
+baseurl: "/"
+urlimg: "https://adriankhwong.com/images/"
 markdown: kramdown
 kramdown:
   math_engine: mathjax
@@ -40,40 +70,37 @@ gems:
   - font-awesome-sass
   - jekyll-redirect-from
   - jekyll-mentions
+  - jekyll-last-modified-at
 
 jekyll-mentions:
-  base_url: https://twitter.com
+  base_url: https://twitter.com/AdrianKHWong
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "rakefile", "README.md", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "LICENSE", "vendor", "assets", "_plugins", "public/dormant"]
 
 # About/contact
 author:
-  name:              Foo Boo
-  url:               https://twitter.com/abcd
-  avatar:         foo.png
-  #email:           
+  name:              Adrian Wong
+  url:
+  avatar:
+  #email:
 
 # Owner/author information
 owner:
-  name:           Foo Boo
-  avatar:         foo.png
-  #email:          
+  name:           Adrian Wong
+  avatar:         AdrianHax.png
+  email:          me@adriankhwong.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        abcd
-  facebook:       
-  github:         xyz123abc
-  stackexchange:  
-  linkedin:       https://www.linkedin.com/in/foo
-  instagram:      
+  twitter:        https://twitter.com/AdrianKHWong
+  facebook:       https://www.facebook.com/adrianwong26
+  github:         https://github.com/adriankhwong
+  stackexchange:
+  linkedin:       https://www.linkedin.com/in/adriankhwong
+  instagram:      http://instagram.com/adriankhwong26
   flickr:
-  tumblr:  
-  google_plus:    https://plus.google.com/+foo
-  # orcid and google scholar IDs are different than standard username.
-  orcid: xyz123abc
-  gscholar: xyz123abc
+  tumblr:
 
 ## sidebar links:
 # For external links add external: true
@@ -82,20 +109,21 @@ links:
     url: /
   - title: <i class="iconside iconm-user"></i> About
     url: /about/
+  - title: <i class="iconside iconm-user"></i> Now
+    url: /now/
+  - title: <i class="iconside iconm-quill"></i> Projects
+    url: /Projects/
   - title: <i class="iconside iconm-quill"></i> Blog
     url: /blog/
   - title: <i class="fa fa-tags"></i> Tags
     url: /tags/
   - title: <i class="fa fa-archive"></i> Archive
     url: /archive/
-  - title: <i class="iconside iconm-wordpress"></i> Old Blog
-    url: https://foo.wordpress.com
-    external: true
+#  - title: <i class="iconside iconm-wordpress"></i> Old Blog
+#    url: https://foo.wordpress.com
+#    external: true
   - title: <i class="iconside iconm-envelop"></i> Contact
     url: /contact/
-  - title: <i class="iconside iconm-twitter"></i> Twitter
-    url: https://twitter.com/abcd
-    external: true
   - title: <i class="iconside iconm-feed2"></i> Feed
     url: /feed.xml
 
@@ -104,15 +132,10 @@ links:
 
 # Twitter stream widget:
 # Replace xyz123abc with your twitter widget id from https://twitter.com/settings/widgets
-#twitter_widget_id: xyz123abc
+twitter_widget_id: adriankhwong
 
 # Add disqus username for Disqus comment board:
 disqus_shortname: foo
 
 # Analytics and webmaster tools stuff goes here
 #google_analytics:   xyz123abc
-
-#### For dummy website only - remove if you wish ####
-github_repo: https://github.com/dyndna/lanyon-plus
-version: 1.1.1
-## END ##
